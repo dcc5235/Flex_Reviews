@@ -305,11 +305,15 @@ body {
 .recommend {
   font-size: 1.3rem;
   color: var(--grey-dark-3);
-  display: flex; }
+  display: flex;
+  align-items: center; }
   .recommend__photo {
+    box-sizing: content-box;
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
     border: 3px solid #fff; }
     .recommend__photo:not(:last-child) {
       margin-right: -1.5rem; }
+    .recommend__photo__count {
+      margin-right: auto; }

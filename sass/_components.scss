@@ -346,8 +346,10 @@
   color: var(--grey-dark-3);
 
   display: flex;
+  align-items: center;
 
   &__photo {
+    box-sizing: content-box;
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
@@ -358,9 +360,7 @@
     }
 
     &__count {
-    }
-
-    &__friends {
+      margin-right: auto;
     }
   }
 }
