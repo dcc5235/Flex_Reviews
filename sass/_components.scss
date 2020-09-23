@@ -400,7 +400,13 @@
     margin-bottom: 0.4rem;
   }
   &__user-date {
+    font-size: 1rem;
+    color: var(--grey-dark-3);
   }
+
   &__rating {
+    color: var(--color-primary);
+    font-size: 2.2rem;
+    font-weight: 300;
   }
 }
