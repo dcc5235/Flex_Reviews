@@ -376,6 +376,8 @@
   &__text {
   }
   &__user {
+    display: flex;
+    align-items: center;
   }
 
   &__photo {

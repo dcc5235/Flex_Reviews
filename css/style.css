@@ -67,18 +67,21 @@ body {
   flex: 1; }
 
 .detail {
+  font-size: 1.4rem;
   display: flex;
   padding: 4.5rem;
   background-color: var(--grey-light-1);
   border-bottom: var(--line); }
 
 .description {
-  font-size: 1.4rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
   background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem; }
+
+.user-reviews {
+  flex: 1; }
 
 .logo {
   height: 3.25rem;
@@ -323,6 +326,9 @@ body {
   box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem; }
+  .review__user {
+    display: flex;
+    align-items: center; }
   .review__photo {
     height: 4.5rem;
     width: 4.5rem;
