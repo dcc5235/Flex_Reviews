@@ -377,8 +377,13 @@
   }
   &__user {
   }
+
   &__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
   }
+
   &__user-box {
   }
   &__user-name {
