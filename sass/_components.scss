@@ -271,8 +271,17 @@
   cursor: pointer;
   transition: all 0.2s;
 
+  & span {
+    margin-left: 3px;
+    transition: margin-left 0.2s;
+  }
+
   &:hover {
     color: var(--grey-dark-1);
+
+    span {
+      margin-left: 8px;
+    }
   }
 
   &:focus {
