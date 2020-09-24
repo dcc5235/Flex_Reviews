@@ -378,6 +378,15 @@ body {
   text-align: center; }
   .cta__book-now {
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     margin-bottom: 2.5rem; }
+
+.btn {
+  font-size: 1.5re;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: none;
+  background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
+  color: #fff; }
