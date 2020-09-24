@@ -390,3 +390,6 @@ body {
   border: none;
   background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
   color: #fff; }
+  .btn__visible {
+    display: inline-block;
+    padding: 2rem 7.5rem; }
