@@ -5,6 +5,12 @@
   box-shadow: var(--shadow-dark);
 
   min-height: 50rem;
+
+  @media only screen and (max-width: $bp-largest) {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .header {
@@ -20,6 +26,10 @@
 
 .content {
   display: flex;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
 }
 
 .sidebar {

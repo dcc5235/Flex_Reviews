@@ -122,6 +122,11 @@
   margin-top: 3.5rem;
   font-size: 1.4rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    display: flex;
+    margin: 0;
+  }
+
   &__item {
     position: relative;
 
@@ -182,6 +187,10 @@
   color: var(--grey-light-4);
   text-align: center;
   padding: 2.5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
 }
 
 ///////////////////////////////
