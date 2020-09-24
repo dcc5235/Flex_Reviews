@@ -53,6 +53,11 @@
   padding: 4.5rem;
   background-color: var(--grey-light-1);
   border-bottom: var(--line);
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
 }
 
 .description {
