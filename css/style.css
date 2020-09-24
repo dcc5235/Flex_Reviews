@@ -391,7 +391,8 @@ body {
   background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
   color: #fff;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  cursor: pointer; }
   .btn > * {
     display: inline-block;
     height: 100%;
@@ -404,7 +405,12 @@ body {
     padding: 2rem 0;
     left: 0;
     top: -100%; }
+  .btn:hover {
+    background-image: linear-gradient(to left, var(--color-primary-light), var(--color-primary-dark)); }
   .btn:hover .btn__visible {
     transform: translateY(100%); }
   .btn:hover .btn__invisible {
     top: 0; }
+  .btn:focus {
+    outline: none;
+    animation: pulsate infinite 1s; }
