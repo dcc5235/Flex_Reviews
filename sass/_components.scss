@@ -467,18 +467,29 @@
   position: relative;
   overflow: hidden;
 
-  &__visible {
+  & > * {
     display: inline-block;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s;
+  }
+
+  &__visible {
     padding: 2rem 7.5rem;
   }
 
   &__invisible {
-    display: inline-block;
     position: absolute;
     padding: 2rem 0;
-    height: 100%;
-    width: 100%;
+
     left: 0;
     top: -100%;
+  }
+
+  &:hover &__visible {
+    transform: translateY(100%);
+  }
+  &:hover &__invisible {
+    top: 0;
   }
 }
