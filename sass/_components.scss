@@ -252,8 +252,8 @@
     padding: 1.5rem 3rem;
 
     @media only screen and (max-width: $bp-small) {
-      font-size: 1.8rem;
-      padding: 1.25rem 2rem;
+      font-size: 1.72rem;
+      padding: 1.75rem 1.4rem;
     }
   }
 
@@ -394,14 +394,17 @@
     width: 1rem;
     margin-right: 0.7rem;
 
-    // background-image: url(../img/chevron-thin-right.svg);
-    // background-size: cover;
+    background-image: url(../img/chevron-thin-right.svg);
+    background-size: cover;
 
-    background-color: var(--color-primary);
-    -webkit-mask-image: url(../img/chevron-thin-right.svg);
-    -webkit-mask-size: cover;
-    mask-image: url(../img/chevron-thin-right.svg);
-    mask-size: cover;
+    @supports (-webkit-mask-image: url()) or (-webkit-mask-size: ()) {
+      background-color: var(--color-primary);
+      -webkit-mask-image: url(../img/chevron-thin-right.svg);
+      -webkit-mask-size: cover;
+      mask-image: url(../img/chevron-thin-right.svg);
+      mask-size: cover;
+      background-image: none;
+    }
   }
 }
 
