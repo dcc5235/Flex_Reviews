@@ -6,7 +6,7 @@
 
 A responsive, Flexbox-focused project for a sample hotel booking app. The site includes Flexbox designs, SVGs, and animated button features for the hotel overview page.
 
-![](readme/readme5.gif)
+![](img/readme1.gif)
 
 ---
 
@@ -37,24 +37,23 @@ Section | Features
 
 ## Header
 
-![](img/readme1.png)
+![](img/readme3.png)
 
 ## Navigation
 
-![](img/readme5.gif)
+![](img/readme2.gif)
 
 ## Main1
 
-![](readme/readme2.png)
+![](img/readme4.png)
 
 ## Main2
 
-
-![](readme/readme3.png)
+![](img/readme5.png)
 
 ## Main3
 
-![](readme/readme4.png)
+![](img/readme6.gif)
 
 ---
 
