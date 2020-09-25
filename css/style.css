@@ -286,7 +286,8 @@ body {
     padding: 1.5rem 3rem; }
     @media only screen and (max-width: 37.5em) {
       .overview__heading {
-        font-size: 1.72rem;
+
+        font-size: 1.52rem;
         padding: 1.75rem 1.4rem; } }
   .overview__stars {
     margin-right: auto;
