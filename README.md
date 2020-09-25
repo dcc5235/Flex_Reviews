@@ -1,12 +1,27 @@
-# Flex Hotel Reviews Page ![GitHub version doc](https://img.shields.io/badge/Version-1.0.0-red) ![GitHub last commit](https://img.shields.io/github/last-commit/dcc5235/Flex_Reviews?style=flat-square) 
+# Flex Booking App ![GitHub version doc](https://img.shields.io/badge/Version-1.0.0-red) ![GitHub last commit](https://img.shields.io/github/last-commit/dcc5235/Flex_Reviews?style=flat-square) 
 
 ### Checkout the Live Version of the [Project](https://dcc5235.github.io/Flex_Reviews/)!
 
 **HTML5, CSS3, SCSS**
 
-A responsive, Flexbox project for a sample hotel reviews page. The site includes Flexbox designs, SVGs, and animation button features.
+A responsive, Flexbox-focused project for a sample hotel booking app. The site includes Flexbox designs, SVGs, and animated button features for the hotel overview page.
 
 ![](readme/readme5.gif)
+
+---
+
+## Installation & Technologies
+
+- Download the full package, select the Code button, choose the "Download ZIP" option.
+- Requires Node.js to run: install [Node.js](https://nodejs.org/en/), current version.
+  - <code>npm install</code> to install the Node Sass and libraries, specifically these packages will also be installed.
+    - "autoprefixer"
+    - "concat"
+    - "node-sass"
+    - "npm-run-all"
+    - "postcss-cli"
+  - <code>npm run start</code> to open local server.
+- SASS/SCSS: install [Sass](https://sass-lang.com/install), current version.
 
 ---
 
@@ -14,17 +29,19 @@ A responsive, Flexbox project for a sample hotel reviews page. The site includes
 
 Section | Features
 ------------ | -------------
-[Header](#Header) | Flexbox 1
-[Navigation](#Navigation) | Flexbox 2
-[Main: Hotel Overview](#Main1) | Flexbox 3
-[Main: Description](#Main2) | Flexbox 4
-[Main: User Reviews](#Main3) | Flexbox 5
+[Header](#Header) | Flexbox alignment techniques (i.e. justify-content, align-items, align-self, flex) & SVG icons for better user accessibility.
+[Navigation](#Navigation) | Flexbox horizontal and vertical alignment at different viewports, multiple transition properties with different settings to create animated hover effect.
+[Main: Hotel Overview](#Main1) | Flexbox margin auto to target overall review rating, infinite animated button.
+[Main: Description](#Main2) | Flexbox flexwrap feature to build multi-column list, CSS masks for browser support.
+[Main: Call to Action](#Main3) | Flexbox alignment showcasing animated hover effect that changes text on hover.
 
 ## Header
 
-![](readme/readme1.png)
+![](img/readme1.png)
 
 ## Navigation
+
+![](img/readme5.gif)
 
 ## Main1
 
@@ -44,3 +61,4 @@ Section | Features
 ## Contributors
 
 Dany Chheang dany.chheang@gmail.com
+Design by Jonas Schmedtmann
