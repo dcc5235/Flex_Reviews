@@ -59,5 +59,5 @@ Section | Features
 
 ## Contributors
 
-Dany Chheang dany.chheang@gmail.com
+Dany Chheang dany.chheang@gmail.com<br>
 Design by Jonas Schmedtmann
