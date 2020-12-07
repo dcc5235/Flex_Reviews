@@ -59,7 +59,6 @@ Section | Features
 
 ## Credits
 
-- Images from [Unsplash.com](https://unsplash.com/) and [Pexels.com](https://www.pexels.com/) licensed under Creative Commons Zero
 - Design by Jonas Schmedtmann
 
 ---
